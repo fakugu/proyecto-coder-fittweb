@@ -281,8 +281,53 @@ height: 200px;
        
             
 
+/* ========================= Seccion inicio============================*/
+
+.caja-p-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+
+}
+
+.caja-p-inicio img{
+
+height: 210px;
+}
 
 
+
+.como-ganar-mm{
+    display: flex;
+flex-direction: column;
+align-items: center;    
+gap: 20px;
+border: 3px solid black;
+border: 1px  solid rgb(95, 4, 148) ;
+}
+
+.como-ganar-mm img{
+    border-radius: 15%;
+    border: 3px solid black;
+}
+
+
+
+.rutina-calistenia-abdomen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px  solid rgb(95, 4, 148) ;
+}
+
+
+.rutina-calistenia-abdomen img{
+    border-radius: 15%;
+    border: 3px solid black;
+}
 
 
 
