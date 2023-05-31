@@ -1,0 +1,39 @@
+.caja-footer{
+    display: flex;
+    padding: 10px;
+    height: 20vh;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-between
+}
+.titulo-footer{
+    color: #0c59cf;
+    font-size: 2.5rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.caja-footer p, span{
+    color: #0c59cf;
+}
+
+@media (min-width:750px){
+
+    .caja-footer{
+        display: flex;
+        padding: 15px;
+        height: 25vh;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-between
+        
+} 
+.titulo-footer{
+    color: #0c59cf;
+    font-size: 2.9rem;
+}
+
+.caja-footer p, span{
+    color: #0c59cf;
+    font-size: 1.55rem;
+
+}}

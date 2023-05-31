@@ -1,0 +1,215 @@
+.buscador-consejos{
+    display: flex;
+    flex-direction: column;
+    height: 150px   ;
+    justify-content: space-evenly;
+    align-items: start ;
+    padding-top: 5px;
+    }
+    
+    
+    .buscador-consejos input{
+      display: block;
+      height: 30px;
+    width: 130px;
+    }
+    
+    .parrafo-boton {
+        display: flex;
+        background-color: black;
+        width: 300px;
+        height: 130px;
+        align-items: center;
+         border-radius: 20%;
+        
+        border-style: inset;
+        
+    }
+    
+    
+       .consejos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 30px;
+       }
+    
+       .consejos img{
+        
+        width: 350px;
+        border: 3px solid black;
+        border-radius: 25%;
+        gap: 20px;
+        
+        
+    
+       }
+    
+      .alimentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+          .descanso{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+       
+     
+     .texto-alimentacion{
+        display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+        justify-content: center;
+        align-content: center;
+     }
+    
+     .texto-descanso{
+        display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+        justify-content: center;
+        align-content: center;
+     }
+       
+     .titulos-consejos{
+        font-size: 2rem;
+     }
+    
+    @media (min-width:750px) {
+       
+        .buscador-consejos {
+            display: flex;
+            flex-direction: column;
+            height: 150px;
+            justify-content: space-evenly;
+            align-items: center ;
+            padding-top: 5px;
+            }
+            
+            .buscador-consejos input{
+                display: block;
+                height: 50px;
+              width: 170px;
+              border-radius: 30%;
+            
+              }
+             .parrafo-boton{
+    
+                display: flex;
+                background-color: black;
+                height: 200px;
+                width: 500px;
+                overflow: scroll;
+               align-items: center;
+                border-radius: 30%;
+                gap: 40px;
+                margin-bottom: 50px;
+               
+            }
+            .parrafo-boton span{
+                font-size: 1.1rem;
+                display: flex;
+                align-items: center;
+                
+            }
+            .consejos{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                gap: 40px;
+               }
+    
+               .consejos img{
+                width: 450px;
+                border: 3px solid black;
+                border-radius: 25%;
+                gap: 40px;}
+    
+    
+               .texto-alimentacion{
+                display: flex;
+                font-size: 1.4rem;
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 200px;
+                justify-content: center;
+                align-content: center;
+                
+             }
+             .texto-descanso{
+                display: flex;
+                font-size: 1.4rem;
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 200px;
+                justify-content: center;
+                align-content: center;
+             }
+          } 
+    
+          @media (min-width:1150px) {
+    
+            .buscador-consejos input{
+               display: block;
+                height: 40px;
+              width: 200px;
+              background-color: white;
+              border-radius: 10%;
+              }
+              
+    
+              .consejos{
+              display: flex;
+              flex-direction: column;
+              justify-content: start;
+                       }
+            
+    
+    
+    
+        }
+    
+        @media (min-width:1150px){
+    
+           .parrafo-boton{  display: flex;
+            background-color: black;
+            height: 200px;
+            width: 500px;
+            overflow: scroll;
+            border-radius: 30%;
+            gap: 40px;
+            margin-bottom: 50px;}
+           
+            .consejos{
+                display: flex;
+                flex-direction: column;
+               
+                gap: 40px;}
+       
+           .alimentacion{
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+               }
+            .titulos-consejos{
+                justify-self:center;
+            }
+               .descanso{
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+    
+               }
+    
+    }
+    
