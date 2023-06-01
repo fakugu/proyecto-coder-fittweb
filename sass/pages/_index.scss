@@ -13,7 +13,12 @@ height: 210px;
 margin-left: 50px;
 }
 
-
+.titulos__comoganarmm{
+display: block;
+margin-top: 30px;
+color: $titulos;
+font-family: $tipo-grafia;
+}
 
 .como-ganar-mm{
     display: flex;

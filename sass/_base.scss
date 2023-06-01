@@ -3,6 +3,9 @@
     padding:0;
 }
 
+$titulos: black;
+ $tipo-grafia:'Barlow Semi Condensed', sans-serif;
+
 /*font-family: 'Barlow Semi Condensed', sans-serif;*/
 
 body{
@@ -10,7 +13,7 @@ body{
   }
 h1 {
 font-size: 4rem;
-font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: $tipo-grafia;
     color: #0c59cf
     
 
@@ -21,11 +24,12 @@ a{
 }
 span, p {
 color: aliceblue;
-font-family: 'Barlow Semi Condensed', sans-serif;;
+font-family: $tipo-grafia;
 }
 
 .titulos{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: black;
+    color: $titulos;
 }
+
 

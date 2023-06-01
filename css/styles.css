@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -104,6 +105,13 @@ nav {
 .caja-p-inicio img {
   height: 210px;
   margin-left: 50px;
+}
+
+.titulos__comoganarmm {
+  display: block;
+  margin-top: 30px;
+  color: black;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .como-ganar-mm {
@@ -394,6 +402,31 @@ nav {
     align-items: center;
   }
 }
+/*Fittweb es una pequeña página web creada por una persona que no hace mucho está metida en este mundo pero que quiere ofrecerte una breve información sobre la nutrición, ejercicios, consejos para tus resultados y un espacio en donde puedas aprender lo esencial para iniciar tu construcción en el mundo del fitness y tomarlo como una parte de tu vida diaria, de forma tranquila, progresiva y saludable.*/
+.portadaacd {
+  background-color: aqua;
+  height: 90vh;
+  background-image: url(../../img/fondoAcercaDeFIttWeb.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portadaacd__tarjeta {
+  background-color: rgb(190, 175, 175);
+  width: 230px;
+  height: 250px;
+  border-radius: 3%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.portadaacd__tarjeta span {
+  color: black;
+}
+
 .caja-footer {
   display: flex;
   padding: 10px;
