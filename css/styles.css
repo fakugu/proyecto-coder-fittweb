@@ -231,6 +231,10 @@ nav {
   gap: 50px;
 }
 
+.ejerciciodebrazos {
+  padding-top: 30px;
+}
+
 .cajabrazo {
   display: flex;
   flex-direction: column;
@@ -250,6 +254,42 @@ nav {
   font-size: 2rem;
 }
 
+@media (min-width: 535px) {
+  .cajabrazo {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .cajabrazo h3 {
+    font-size: 2.2rem;
+  }
+  .cajabrazo img {
+    border-radius: 20%;
+    width: 350px;
+    height: 60%;
+  }
+}
+@media (min-width: 1100px) {
+  .contenedor_ejercicios_brazos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+  }
+  .ejerciciodebrazos {
+    grid-column: 1/-1;
+  }
+  .cajabrazo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .cajabrazo h3 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+}
 .buscador-consejos {
   display: flex;
   flex-direction: column;
@@ -258,7 +298,6 @@ nav {
   align-items: start;
   padding-top: 5px;
 }
-
 .buscador-consejos input {
   display: block;
   height: 30px;
@@ -283,7 +322,6 @@ nav {
   align-content: center;
   gap: 30px;
 }
-
 .consejos img {
   width: 350px;
   border: 3px solid black;
@@ -297,12 +335,6 @@ nav {
   align-items: center;
 }
 
-.descanso {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .texto-alimentacion {
   display: flex;
   padding-left: 20px;
@@ -310,6 +342,12 @@ nav {
   height: 200px;
   justify-content: center;
   align-content: center;
+}
+
+.descanso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .texto-descanso {
