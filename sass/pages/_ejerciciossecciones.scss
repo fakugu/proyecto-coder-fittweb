@@ -1,4 +1,4 @@
-.contenedor_ejercicios_brazos{
+.contenedor_ejercicios{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,14 +6,14 @@
     gap: 50px;
 }
 
-.ejerciciodebrazos{
+.tipode_ejercicio{
   padding-top: 30px;
 
 }
 
 
   
-.cajabrazo{
+.modalidad_ejercicio{
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -48,7 +48,7 @@ height: 50%;
 
 @media (min-width:535px) {
 
-  .cajabrazo{
+  .modalidad_ejercicio{
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -76,18 +76,18 @@ height: 50%;
 
 @media (min-width:1100px){
 
-.contenedor_ejercicios_brazos{
+.contenedor_ejercicios{
 
   display: grid;
   grid-template-columns: 50% 50%;
   justify-items: center;
 }
 
-.ejerciciodebrazos{
+.tipode_ejercicio{
   grid-column: 1/-1;
 }
  
-.cajabrazo{
+.modalidad_ejercicio{
   padding-top: 40px;
   padding-bottom: 40px;
 
