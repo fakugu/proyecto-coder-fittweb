@@ -92,15 +92,16 @@
             justify-content: space-evenly;
             align-items: center ;
             padding-top: 5px;
-            }
+          
             
-            .buscador-consejos input{
+            & input{
                 display: block;
                 height: 50px;
               width: 170px;
               border-radius: 30%;
             
               }
+            }
              .parrafo-boton{
     
                 display: flex;
@@ -113,13 +114,15 @@
                 gap: 40px;
                 margin-bottom: 50px;
                
-            }
-            .parrafo-boton span{
+           
+            & span{
                 font-size: 1.1rem;
                 display: flex;
                 align-items: center;
                 
             }
+        }
+
             .consejos{
                 display: flex;
                 flex-direction: column;
@@ -127,13 +130,14 @@
                 align-items: center;
                 align-content: center;
                 gap: 40px;
-               }
+              
     
-               .consejos img{
+               & img{
                 width: 450px;
                 border: 3px solid black;
                 border-radius: 25%;
                 gap: 40px;}
+               }
     
     
                .texto-alimentacion{
