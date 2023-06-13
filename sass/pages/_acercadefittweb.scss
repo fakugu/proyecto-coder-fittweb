@@ -1,4 +1,4 @@
-/*Fittweb es una pequeña página web creada por una persona que no hace mucho está metida en este mundo pero que quiere ofrecerte una breve información sobre la nutrición, ejercicios, consejos para tus resultados y un espacio en donde puedas aprender lo esencial para iniciar tu construcción en el mundo del fitness y tomarlo como una parte de tu vida diaria, de forma tranquila, progresiva y saludable.*/
+
 
 .portadaacd{
 
@@ -12,19 +12,20 @@
 
 
 
- & tarjeta {
-    background-color: rgb(190, 175, 175);
-    width: 230px;
-    height: 250px;
-    border-radius: 3%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-
-    & span{
-        color: black;
-
-    }
+    &__tarjeta {
+        display: flex;
+        align-items: center;
+        background-color: rgb(190, 175, 175);
+        width: 230px;
+        height: 250px;
+        border-radius: 3%;
+        text-align: center;
+       ;
+    
+        & span{
+            color: black;
+    
+        }
  }
 
 

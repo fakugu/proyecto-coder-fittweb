@@ -1,20 +1,32 @@
 .caja-footer{
     display: flex;
     padding: 10px;
-    height: 20vh;
+    height: 60vh;
+    width: 100vw;
     background-color: black;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+
+    & p{
+        color: $letra-celeste;
+    }
+
 }
-.titulo-footer{
-    color: #0c59cf;
+
+
+.titulo-footer {
+   color: $letra-celeste;
     font-size: 2.5rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.caja-footer p, span{
-    color: #0c59cf;
+.contacto-footer{
+    color: $letra-celeste;
 }
+                
+
+
+
 
 @media (min-width:750px){
 
@@ -32,8 +44,8 @@
     font-size: 2.9rem;
 }
 
-.caja-footer p, span{
+.caja-footer p, span {
     color: #0c59cf;
     font-size: 1.55rem;
-
-}}
+}
+}

@@ -5,6 +5,7 @@
 
 $titulos: black;
  $tipo-grafia:'Barlow Semi Condensed', sans-serif;
+ $letra-celeste: #0c59cf;
 
 /*font-family: 'Barlow Semi Condensed', sans-serif;*/
 
@@ -33,3 +34,15 @@ font-family: $tipo-grafia;
 }
 
 
+.botonespera{
+    background-color: black;
+    width: 180px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-image: radial-gradient(red, black);
+}
+    
+    
