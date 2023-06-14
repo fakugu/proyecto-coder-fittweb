@@ -28,17 +28,6 @@ span, p {
   color: black;
 }
 
-.botonespera {
-  background-color: black;
-  width: 180px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20%;
-  background-image: radial-gradient(red, black);
-}
-
 .titulo-principal {
   font-size: 4rem;
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -210,10 +199,13 @@ nav {
   .caja-ejercicios img {
     border-radius: 20%;
     width: 400px;
-    height: 60% .caja-ejercicios img h3;
-    height-display: flex;
-    height-justify-content: center;
-    height-font-size: 2rem;
+    height: 60%  }
+
+    .caja-ejercicios img h3 { 
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    
   }
 }
 @media (min-width: 1150px) {
@@ -295,6 +287,27 @@ nav {
     padding-bottom: 10px;
   }
 }
+.video-ejercicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonespera {
+  background-color: black;
+  width: 180px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  background-image: radial-gradient(red, black);
+}
+.botonespera:hover {
+  animation: normal;
+  transform: rotate(360deg);
+}
+
 .buscador-consejos {
   display: flex;
   flex-direction: column;

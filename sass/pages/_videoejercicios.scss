@@ -1,0 +1,22 @@
+.video-ejercicios{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+.botonespera{
+    background-color: black;
+    width: 180px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-image: radial-gradient(red, black);
+
+&:hover{
+    animation: normal;
+    transform: rotate(360deg);
+}
+}
