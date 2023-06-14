@@ -34,20 +34,22 @@ height: 50%;
         gap: 100px;
         }
        
-        
-        .caja-ejercicios img{
-            border-radius: 20%;
-            width: 400px;
-            height: 60%
-         
-            & h3{
+        .caja-ejercicios{
+
+            & h3 {
                 display: flex;
                 justify-content: center;
                 font-size: 2rem;
             }
+         & img{
+            border-radius: 20%;
+            width: 400px;
+            height: 60%
+         
+            
         }
         
-        }
+        } }
 
         @media (min-width:1150px) {
 
@@ -65,4 +67,4 @@ height: 50%;
 
 
     }
-}
+        }

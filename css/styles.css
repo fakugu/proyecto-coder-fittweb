@@ -196,16 +196,15 @@ nav {
     align-items: center;
     gap: 100px;
   }
-  .caja-ejercicios img {
-    border-radius: 20%;
-    width: 400px;
-    height: 60%  }
-
-    .caja-ejercicios img h3 { 
+  .caja-ejercicios h3 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    
+  }
+  .caja-ejercicios img {
+    border-radius: 20%;
+    width: 400px;
+    height: 60%;
   }
 }
 @media (min-width: 1150px) {
@@ -303,11 +302,34 @@ nav {
   border-radius: 20%;
   background-image: radial-gradient(red, black);
 }
-.botonespera:hover {
-  animation: normal;
-  transform: rotate(360deg);
-}
 
+@media (min-width: 750px) {
+  .botonespera {
+    background-color: black;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-image: radial-gradient(red, black);
+  }
+  .botonespera p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1150px) {
+  .botonespera {
+    background-color: black;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-image: radial-gradient(red, black);
+  }
+}
 .buscador-consejos {
   display: flex;
   flex-direction: column;

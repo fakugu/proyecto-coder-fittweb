@@ -15,8 +15,45 @@
     border-radius: 20%;
     background-image: radial-gradient(red, black);
 
-&:hover{
-    animation: normal;
-    transform: rotate(360deg);
+
 }
+@media (min-width:750px) {
+    .botonespera{
+        background-color: black;
+        width: 350px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20%;
+        background-image: radial-gradient(red, black);
+
+        & p{
+
+        font-size: 1.5rem
+        }
+
+
+
+    }
+
+}
+
+
+@media (min-width:1150px) {
+
+.botonespera{ 
+    background-color: black;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-image: radial-gradient(red, black);
+
+}
+
+
+
 }
