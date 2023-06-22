@@ -286,10 +286,35 @@ nav {
     padding-bottom: 10px;
   }
 }
-.video-ejercicios {
+.seccion-videos {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+}
+
+.caja-video {
+  width: 80%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 106px);
+}
+.caja-video video {
+  display: grid;
+  height: 200px;
+  width: 320px;
+  grid-column: 3/-3;
+}
+.caja-video p {
+  display: grid;
+  grid-column: 4/-4;
+  justify-items: center;
+}
+.caja-video h2 {
+  padding-top: 30px;
+  display: grid;
+  grid-column: 1/3;
+  justify-items: center;
 }
 
 .botonespera {
