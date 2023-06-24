@@ -7,10 +7,27 @@ $titulos: black;
  $tipo-grafia:'Barlow Semi Condensed', sans-serif;
  $letra-celeste: #0c59cf;
 
-/*font-family: 'Barlow Semi Condensed', sans-serif;*/
+/*font-family: 'Barlow Semi Condensed', sans-serif;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,56,253,1) 100%);
+
+
+
+
+
+*/
+header{
+    background: rgb(33,107,130);
+background: linear-gradient(90deg, rgba(33,107,130,1) 0%, rgba(29,207,253,1) 50%, rgba(33,107,130,1) 93%);
+}
+nav{
+    background: rgb(4,41,51);
+    background: linear-gradient(90deg, rgba(4,41,51,1) 0%, rgba(4,41,51,1) 50%, rgba(4,41,51,1) 93%);
+} 
 
 body{
-    background-color: #460e56;
+    background: rgb(33,107,130);
+background: linear-gradient(90deg, rgba(33,107,130,1) 0%, rgba(29,207,253,1) 50%, rgba(33,107,130,1) 93%);
   }
 h1 {
 font-size: 4rem;
