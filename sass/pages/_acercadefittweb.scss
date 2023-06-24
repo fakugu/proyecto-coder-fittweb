@@ -2,34 +2,45 @@
 
 .portadaacd{
 
-    height: 90vh;
+    height: 100%;
     background-image: url(../../img/fondoAcercaDeFIttWeb.png);
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
 
 
 
     &__tarjeta {
+       
         display: flex;
+        padding-inline: 30px;
         align-items: center;
         background-color: rgb(190, 175, 175);
         width: 230px;
         height: 250px;
         border-radius: 3%;
         text-align: center;
-       ;
+        
+        
+       
+        
+        
     
         & span{
             color: black;
     
         }
  }
-
-
 }
+
+
+
 
 
  @media (min-width:750px) {

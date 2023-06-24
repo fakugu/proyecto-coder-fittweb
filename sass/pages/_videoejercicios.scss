@@ -57,15 +57,60 @@
 
 }
 @media (min-width:750px) {
+    
+    .caja-video{
+
+        width: 90%;
+       display: grid;
+       justify-items: center;
+       grid-template-columns: repeat(3,260px);
+       padding-bottom: 100px;
+       
+       
+     
+    
+    
+    
+       & video{
+        display: grid;
+        height: 300px;
+        width: 500px;
+        grid-column: -2/-1;
+       }
+    
+       & p{
+        display: grid;
+        grid-column: 1 /3;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.5rem;
+       
+       }
+       & h2{
+        padding-top:30px;
+        display: grid; 
+        grid-column: 2;
+        justify-items: center;
+        font-size: 1.8rem;
+       }
+    }
+    
+    
+    
+    
+    
+    
+   
     .botonespera{
         background-color: black;
-        width: 350px;
-        height: 300px;
+        width: 300px;
+        height: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 20%;
         background-image: radial-gradient(red, black);
+        
 
         & p{
 
@@ -80,7 +125,40 @@
 
 
 @media (min-width:1150px) {
+    .caja-video{
 
+        width: 80%;
+       display: grid;
+       justify-items: center;
+       grid-template-columns: repeat(3,500px);
+       
+       
+     
+    
+    
+    
+       & video{
+        display: grid;
+        height: 500px;
+        width: 320px;
+        grid-column: 3;
+       }
+    
+       & p{
+        display: grid;
+        grid-column: 2/-2;
+        justify-items: center;
+        font-size: 2rem;
+       
+       }
+       & h2{
+        padding-top:30px;
+        display: grid; 
+        grid-column: 1/3;
+        justify-items: center;
+        font-size: 2.3rem;
+       }
+    }
 .botonespera{ 
     background-color: black;
     width: 350px;
