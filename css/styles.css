@@ -317,12 +317,15 @@ nav {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(3, 106px);
+  padding-bottom: 150px;
+  padding-left: 50px;
 }
 .caja-video video {
   display: grid;
   height: 200px;
   width: 320px;
   grid-column: 3/-3;
+  border-radius: 10%;
 }
 .caja-video p {
   display: grid;
@@ -353,25 +356,24 @@ nav {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(3, 260px);
-    padding-bottom: 100px;
+    padding-bottom: 150px;
   }
   .caja-video video {
     display: grid;
     height: 300px;
     width: 500px;
-    grid-column: -2/-1;
+    grid-column: 3;
   }
   .caja-video p {
     display: grid;
-    grid-column: 1/3;
     justify-items: center;
-    align-items: center;
-    font-size: 1.5rem;
+    align-items: start;
+    font-size: 1.2rem;
+    grid-column: 1/3;
   }
   .caja-video h2 {
     padding-top: 30px;
     display: grid;
-    grid-column: 2;
     justify-items: center;
     font-size: 1.8rem;
   }
@@ -404,9 +406,10 @@ nav {
   }
   .caja-video p {
     display: grid;
-    grid-column: 2/-2;
-    justify-items: center;
-    font-size: 2rem;
+    grid-column: 1/3;
+    justify-items: start;
+    align-items: start;
+    font-size: 1.9rem;
   }
   .caja-video h2 {
     padding-top: 30px;
