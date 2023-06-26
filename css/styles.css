@@ -62,7 +62,7 @@ header {
 }
 
 nav {
-  height: 50px;
+  height: 38px;
   background-color: black;
 }
 
@@ -659,25 +659,32 @@ nav {
 .caja-footer {
   display: flex;
   padding: 10px;
-  height: 60vh;
+  max-height: 70vh;
   width: 100vw;
   background: rgb(4, 41, 51);
   background: linear-gradient(90deg, rgb(4, 41, 51) 0%, rgb(4, 41, 51) 50%, rgb(4, 41, 51) 93%);
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 .caja-footer p {
   color: #0c59cf;
+  font-size: 1.2rem;
 }
 
 .titulo-footer {
+  display: flex;
+  padding-bottom: 20px;
   color: #0c59cf;
-  font-size: 2.5rem;
+  font-size: 5rem;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .contacto-footer {
+  display: flex;
+  padding-bottom: 20px;
   color: #0c59cf;
+  font-size: 1.8rem;
 }
 
 @media (min-width: 750px) {
