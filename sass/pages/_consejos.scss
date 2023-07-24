@@ -77,7 +77,7 @@ animation: glowing 20s linear infinite;
     
     
     
-       .consejos{
+       .caja-consejos{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -87,183 +87,104 @@ animation: glowing 20s linear infinite;
                           
        & img{
         
-        width: 350px;
+        width: 300px;
         border: 3px solid black;
         border-radius: 25%;
         gap: 20px; }
         
     }
+    .titulo-consejo{
+        display: inline-block;
+        margin-top:70px;
+        font-family: $tipo-grafia;
+        color: $titulos;
+    }
     
       
     
-      .alimentacion{
+      .consejo{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-      }
-        
      
-     .texto-alimentacion{
-        display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 200px;
-        justify-content: center;
-        align-content: center;
-     }
-    
-
-     .descanso{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
-     .texto-descanso{
-        display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 200px;
-        justify-content: center;
-        align-content: center;
-     }
-       
-     .titulos-consejos{
-        font-size: 2rem;
-     }
-    
-    @media (min-width:750px) {
-       
-        .buscador-consejos {
-            display: flex;
-            flex-direction: column;
-            height: 150px;
-            justify-content: space-evenly;
-            align-items: center ;
-            padding-top: 5px;
-          
-            
-            & input{
-                display: block;
-                height: 50px;
-              width: 170px;
-              border-radius: 30%;
-            
-              }
-            }
-             .parrafo-boton{
-    
-                display: flex;
-                background-color: black;
-                height: 200px;
-                width: 500px;
-                overflow: scroll;
-               align-items: center;
-                border-radius: 30%;
-                gap: 40px;
-                margin-bottom: 50px;
-               
-           
-            & span{
-                font-size: 1.1rem;
-                display: flex;
-                align-items: center;
-                
-            }
-        }
-
-            .consejos{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                gap: 40px;
-              
-    
-               & img{
-                width: 450px;
-                border: 3px solid black;
-                border-radius: 25%;
-                gap: 40px;}
-               }
-    
-    
-               .texto-alimentacion{
-                display: flex;
-                font-size: 1.4rem;
-            padding-left: 20px;
-            padding-right: 20px;
-            height: 200px;
-                justify-content: center;
-                align-content: center;
-                
-             }
-             .texto-descanso{
-                display: flex;
-                font-size: 1.4rem;
-            padding-left: 20px;
-            padding-right: 20px;
-            height: 200px;
-                justify-content: center;
-                align-content: center;
-             }
-          } 
-    
-          @media (min-width:1150px) {
-    
-            .buscador-consejos input{
-               display: block;
-                height: 40px;
-              width: 200px;
-              background-color: white;
-              border-radius: 10%;
-              }
-              
-    
-              .consejos{
-              display: flex;
-              flex-direction: column;
-              justify-content: start;
-                       }
-            
-    
-    
-    
-        }
-    
-        @media (min-width:1150px){
-    
-           .parrafo-boton{  display: flex;
-            background-color: black;
-            height: 200px;
-            width: 500px;
-            overflow: scroll;
-            border-radius: 30%;
-            gap: 40px;
-            margin-bottom: 50px;}
-           
-            .consejos{
-                display: flex;
-                flex-direction: column;
-               
-                gap: 40px;}
-       
-           .alimentacion{
-            display: flex;
-            flex-direction: row;
-            justify-content: start;
-            align-items: center;
-               }
-            .titulos-consejos{
-                justify-self:center;
-            }
-               .descanso{
-                display: flex;
-                flex-direction: row;
-                justify-content: start;
-                align-items: center;
-    
-               }
-    
+    & p{   
+        display: inline-block;
+       margin-top: 40px;
+       margin-bottom: 30px;
+font-family: $tipo-grafia;
+font-size: 1.4rem
     }
+
+}
+
+   
+
+      
+
+
+       @media (min-width:750px) {
+
+        .caja-consejos{
+           display: flex;
+           flex-direction:column;
+            align-items: center;
+
+       }
+
+       .consejo{
+        display: flex;
+        flex-direction: row;
+        
+        & p{   
+            display: inline-block;
+    font-size: 1.3rem;
+    margin-left: 25px;
+        }
+
+    }
+
+    .titulo-consejo{
+        display: inline-block;
+        margin-top:80px;
+        font-family: $tipo-grafia;
+        color: $titulos;
+
+
+}
+       }
+
+
+    
+ @media (min-width:1150px) {
+
+    .consejo{
+
+        & img{
+            
+        width: 500px;
+        border: 3px solid black;
+        border-radius: 25%;
+        gap: 20px;
+        }
+        & p{   
+            display: inline-block;
+    font-size: 1.8rem;
+    margin-left: 25px;
+        }
+    }
+
+
+.titulo-consejo{
+        display: inline-block;
+        margin-top:80px;
+        font-family: $tipo-grafia;
+        color: $titulos;
+        font-size: 2.5rem;
+
+
+ }
+
+
+
+ }
